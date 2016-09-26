@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (buttonChoice == R.id.button) {
                 return R.drawable.xx;
                 {
-                    getComputerChoice()
+                    getComputerChoice();
                     {
                         return R.drawable.oh;
                     }
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (buttonChoice == R.id.button4) {
                 return R.drawable.xx;
                 {
-                    getComputerChoice()
+                    getComputerChoice();
                     {
                         return R.drawable.oh;
                     }
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (buttonChoice == R.id.button5) {
                 return R.drawable.xx;
                 {
-                    getComputerChoice()
+                    getComputerChoice();
                     {
                         return R.drawable.oh;
                     }
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (buttonChoice == R.id.button6) {
                 return R.drawable.xx;
                 {
-                    getComputerChoice()
+                    getComputerChoice();
                     {
                         return R.drawable.oh;
 
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (buttonChoice == R.id.button8) {
                 return R.drawable.xx;
                 {
-                    getComputerChoice()
+                    getComputerChoice();
                     {
                         return R.drawable.oh;
                     }
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 return R.drawable.xx;
                 {
-                    getComputerChoice()
+                    getComputerChoice();
                     {
                         return R.drawable.oh;
                     }
@@ -116,17 +116,67 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-}
 
 
-    public void  eval( new Random)
+
+
+    public void  evalHori( )
+    // Horizontal Winners evaluation
     {
-        // Horizontal Winners
 
-    if()
+    if(R.id.button==R.drawable.xx && if(R.id.button2==R.drawable.xx && ) if(R.id.button3==R.drawable.xx && )
+        {
+            return text.setText="The Xs Win";}
 
+        else if (R.id.button4==R.drawable.xx)& & if(R.id.button5==R.drawable.xx && (if(R.id.button6==R.drawable.xx &&)))
+        {
+            return text.setText = "The Xs Win"
+        }
 
+        else if (R.id.button7==R.drawable.xx )&& if(R.id.button8==R.drawable.xx) &&  if(R.id.button9==R.drawable.xx && ) {
+        return text.setText = "The Xs Win";
     }
 
+    else  {
+        return text.setText = "The Oxs Win";
+    }
+    
+    public void  evalVert( )
+// Horizontal Winners evaluation
+        {
 
+    If (R.id.button==R.drawable.xx && if(R.id.button4==R.drawable.xx && ) if(R.id.button7==R.drawable.xx && ) {
+        return text.setText = "The Xs Win";
+    }
+
+    else if (R.id.button2==R.drawable.xx && if(R.id.button5==R.drawable.xx && ) if(R.id.button8==R.drawable.xx && ) {
+        return text.setText = "The Xs Win";
+    }
+
+    else if (R.id.button3==R.drawable.xx && if(R.id.button6==R.drawable.xx && ) if(R.id.button9==R.drawable.xx && ) {
+            return text.setText = "The Xs Win";
+            {
+
+                else{
+                return text.setText = "The Oxs Win";
+            }
+            }
+        }
+
+// Diagonal Winners evaluation
+
+public void  evalVert( )
+// Diag Winners evaluation
+        {}
+
+        If (R.id.button==R.drawable.xx && if(R.id.button5==R.drawable.xx && ) if(R.id.button9==R.drawable.xx && ) {
+        return text.setText = "The Xs Win";
+        }
+
+        else if (R.id.button7==R.drawable.xx && if(R.id.button5==R.drawable.xx && ) if(R.id.button3==R.drawable.xx && ) {
+       return  text.setText = "The Xs Win";
+        }
+
+        else{
+        return text.setText="The Oxs Win";
 
