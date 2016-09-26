@@ -140,7 +140,8 @@ public class MainActivity extends AppCompatActivity {
     else  {
         return text.setText = "The Oxs Win";
     }
-    
+    }
+
     public void  evalVert( )
 // Horizontal Winners evaluation
         {
@@ -162,12 +163,13 @@ public class MainActivity extends AppCompatActivity {
             }
             }
         }
+        }
 
 // Diagonal Winners evaluation
 
 public void  evalVert( )
 // Diag Winners evaluation
-        {}
+        {
 
         If (R.id.button==R.drawable.xx && if(R.id.button5==R.drawable.xx && ) if(R.id.button9==R.drawable.xx && ) {
         return text.setText = "The Xs Win";
@@ -177,6 +179,11 @@ public void  evalVert( )
        return  text.setText = "The Xs Win";
         }
 
-        else{
-        return text.setText="The Oxs Win";
+        else
+
+    {
+        return text.setText = "The Oxs Win";
+    }
+}
+}
 
